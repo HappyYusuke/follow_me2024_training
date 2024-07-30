@@ -1,0 +1,19 @@
+pip install pipenv
+
+mkdir follow_me2024_env
+
+cd follow_me2024_env/
+
+pipenv
+
+pipenv shell
+
+
+git clone https://github.com/THU-MIG/yolov10.git
+
+cd yolov10/
+
+pip install -r requirements.txt
+
+pip install -e .
+
